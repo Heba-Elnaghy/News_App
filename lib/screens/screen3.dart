@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-// import 'package:hexcolor/hexcolor.dart';
 
 class Screen3 extends StatelessWidget {
   const Screen3({super.key});
@@ -32,7 +31,7 @@ class Screen3 extends StatelessWidget {
                 Container(
                   height: MediaQuery.of(context).size.height,
                   width: 390,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.all(Radius.circular(30)),
                   ),
@@ -58,7 +57,7 @@ class Screen3 extends StatelessWidget {
                     padding: const EdgeInsets.only(top: 7, left: 10, right: 3),
                     child: SingleChildScrollView(
                       child: RichText(
-                        text: TextSpan(
+                        text: const TextSpan(
                           text: '\nSunday, 9 May 2021',
                           style: TextStyle(
                             color: Colors.black,
