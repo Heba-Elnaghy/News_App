@@ -15,7 +15,6 @@ class Screen3 extends StatelessWidget {
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
           ),
-
           Container(
             width: 400,
             height: 350,
@@ -26,17 +25,6 @@ class Screen3 extends StatelessWidget {
               ),
             ),
           ),
-          // Positioned(
-          //   top: 50,
-          //   left: 15,
-          //   child: InkWell(
-          //     child: Image.asset('svg_images/Back Icon.png'),
-          //     // onTap: () => Navigator.push(
-          //     //   context,
-          //     //   MaterialPageRoute(builder: (context) => const MyHome()),
-          //     // ),
-          //   ),
-          // ),
           Positioned(
             top: 280,
             child: Column(
